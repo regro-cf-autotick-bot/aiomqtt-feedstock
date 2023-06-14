@@ -1,5 +1,5 @@
 {% set name = "aiomqtt" %}
-{% set version = "0.1.3" %}
+{% set version = "0.17.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8c09676cbc1e682ea7b282fcd9bcae1b9630855dacc5180dbcacbee069b9576d
+  sha256: 015e4a7fdd1f3f22ee5b70b8fc0e3cf8fa0b283618e813d222eeaed87974bfaa
 
 build:
   number: 0
